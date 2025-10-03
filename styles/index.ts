@@ -1,1 +1,1 @@
-export * from './theme/uno.config'
+export * from '../uno.config'

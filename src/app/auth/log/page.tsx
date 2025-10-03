@@ -4,10 +4,11 @@ import { defineConfig } from "unocss"
 
 
 const LogIn = ()=> {
+
   return (
-    <div className={`bg-red text-red p-4 rounded`}>
+    <button className="btn">
         test
-    </div>
+    </button>
   )
 }
 export default  LogIn

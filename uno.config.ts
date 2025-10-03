@@ -1,8 +1,10 @@
-import { defineConfig, presetAttributify, presetIcons } from 'unocss'
+import { defineConfig, presetAttributify, presetIcons, presetWind3 } from 'unocss'
+
 
 export default defineConfig({
+
   presets: [
-    // presetUno(),
+    presetWind3(),
     presetAttributify(), // optional: enables attribute-based styling
     presetIcons(),       // optional: adds icon support
   ],
@@ -21,8 +23,8 @@ export default defineConfig({
       mono: ['Fira Code', 'monospace'],
     },
   },
-  shortcuts: {
-    'btn': 'px-4 py-2 rounded bg-brand text-white hover:bg-brand-dark',
-    'card': 'p-6 shadow-lg rounded bg-white',
+    shortcuts: {
+      'btn': 'px-8 py-2 rounded bg-brand hover:bg-brand-light',
+      'card': 'p-4',
   },
 })
