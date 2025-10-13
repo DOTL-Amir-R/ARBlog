@@ -1,14 +1,8 @@
-import { defineConfig } from "unocss"
-
-
-
-
-const LogIn = ()=> {
-
+const LogIn = () => {
   return (
     <button className="btn">
-        test
+      test
     </button>
-  )
-}
-export default  LogIn
+  );
+};
+export default LogIn;
