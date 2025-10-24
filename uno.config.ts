@@ -1,4 +1,4 @@
-import { defineConfig, presetAttributify, presetIcons, presetWind3 } from "unocss";
+import { defineConfig, presetAttributify, presetIcons, presetWind3, presetTagify } from "unocss";
 export default defineConfig({
 	  content: {
     pipeline: {
@@ -6,6 +6,7 @@ export default defineConfig({
     },
   },
   presets: [
+		presetTagify(),
     presetWind3(),
     presetAttributify(), // optional: enables attribute-based styling
     presetIcons(),       // optional: adds icon support
