@@ -13,13 +13,15 @@ const compat = new FlatCompat({
   recommendedConfig: js.configs.recommended,
   allConfig: js.configs.all
 });
-export default [...compat.extends(
+export default [
+	...compat.extends(
   "next/core-web-vitals",
   "plugin:react/jsx-runtime",
   "eslint:recommended",
   "plugin:@typescript-eslint/recommended",
   "prettier"
-), {
+),
+ {
   plugins: {
     "@typescript-eslint": typescriptEslint,
     "prettier": prettierPlugin,

@@ -1,3 +1,2 @@
-export * from './shortcuts'
-export * from './theme'
-
+export * from "./shortcuts";
+export * from "./theme";

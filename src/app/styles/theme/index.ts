@@ -1,21 +1,18 @@
-
 export const unoTheme = {
-  theme: {
+   theme: {
     colors: {
-      brand: {
-        DEFAULT: '#8b5cf6',
-        dark: '#5b21b6',
-        light: '#b91c1c',
-        // red: '#b91c1c',
-      },
-      accent: '#ff6b6b',
+ 		 brand: {
+   			base: "#FFFFFF",
+    		secondry: "#98FAEC",
+  			primary: "#12F7D6",
+   		 	surface: "#43454D",
+   		 	canvas: "#1A1E23",
+   		 	canvasMuted: "#292F36",
+  		},
     },
     fontFamily: {
-      sans: ['Inter', 'sans-serif'],
-      mono: ['Fira Code', 'monospace'],
+      sans: ["Inter", "sans-serif"],
+      mono: ["Fira Code", "monospace"],
     },
   },
-
-}
-
-
+};
